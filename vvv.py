@@ -23,8 +23,8 @@ tab1, tab2, tab3, tab4 = st.tabs(["Find <State> and <Design> ", "Find fastest sp
 
 # Load data
 def load_data():
-    path = "/Users/roselyn/Desktop/CS230pythonProject/final/"
-    df = pd.read_csv(path + "RCG.csv")
+    #path = "/Users/roselyn/Desktop/CS230pythonProject/final/"
+    df = pd.read_csv("RCG.csv")
     return df
 
 df = load_data()
